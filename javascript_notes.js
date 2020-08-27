@@ -17,7 +17,7 @@ var result = sum(10, 5); // arguments (10,5)
 
 // DOM - Document Object Model 
 // Allow the developer to manipulate the web page
-document
+// document
 
 
 document.getElementById("id"); 
@@ -47,14 +47,14 @@ displayEntryButton.innerText = 1;
 // textContent
 
 // Update variable
-var person = {name: "Joe"}
-person.name = "Jim"
-console.log(person)
+var person = {name: "Joe"};
+person.name = "Jim";
+console.log(person);
 
 //change style
 header.style.color = "blue";
 header.style.backgroundColor = "blue";
-document.body.style.backgroundColor = "red"
+document.body.style.backgroundColor = "red";
 // tags with camel case
 
 
@@ -93,23 +93,23 @@ document.body.append(newP);
 entriesSection.appendChild(entryDiv);
 
 //Add element with innerHTML
-var myList = document.getElementById("my-list")
-myList.innerHTML += "<li>4</li>"
+var myList = document.getElementById("my-list");
+myList.innerHTML += "<li>4</li>";
 
 
 
 //Lister
-var button = document.getElementById("button")
+var button = document.getElementById("button");
 
 function handleButtonClick() {
-    console.log("The button was clicked!")
+    console.log("The button was clicked!");
 }
 
 //without the parenteses, othewise would excute the function right now
-button.addEventListener("keyup", handleButtonClick)
-button.addEventListener("click", handleButtonClick)
-button.addEventListener("mouseover", handleButtonClick)
-button.addEventListener("mouseout", handleButtonClick)
+button.addEventListener("keyup", handleButtonClick);
+button.addEventListener("click", handleButtonClick);
+button.addEventListener("mouseover", handleButtonClick);
+button.addEventListener("mouseout", handleButtonClick);
 // dblclick
 
 //Not reload
@@ -129,7 +129,7 @@ function hadleQuery(e){
     let searchQuery = event.target.value.toLowerCase();
 
     
-    console.log(searchQuery)
+    console.log(searchQuery);
 }
 
 input.addEventListener('keyup', hadleQuery);
@@ -144,20 +144,20 @@ if(currentName.includes(searchQuery)){
 }
 
 //Mudar tipo de string para number
-temperature = parseInt(temperature.value)
+temperature = parseInt(temperature.value);
 // ou
-Number(temperature.value)
+Number(temperature.value);
 
 //redudir para 2 casas decimais
 result.toFixed(2);
 
 //Gerar valores aleatórios
-Math.random()
+Math.random();
 
 //Arredondar para o inteiro
-Math.floor(3.5) = 3
+Math.floor(3.5) = 3;
 
-const randomNumber = Math.floor(Math.random() * 6) + 1
+const randomNumber = Math.floor(Math.random() * 6) + 1;
 
 
 //Inverter o valor entre true e false
@@ -165,22 +165,22 @@ player1Turn = !player1Turn;
 
 // Comparação
 if (player1Score >= 20) {
-	
+	console.log('teste');
 }
 
 //Foreach
 let currentSnake = [0,1,2]
-currentSnake.forEach(index => squares[index].classList.add('snake'))
+currentSnake.forEach(index => squares[index].classList.add('snake'));
 
 // Remove the last element from the array
 currentSnake.pop();
 
 //add element in direction we are heading
-currentSnake.unshift(currentSnake[0] + direction)
+currentSnake.unshift(currentSnake[0] + direction);
 
 
 // Execute once
-setTimeout(function, 1000);
+setTimeout(move, 1000);
 
 // Execute a lot of times
 let timeId = setInterval(move, 1000);
@@ -207,7 +207,7 @@ function control(e) {
 }
 
 // Ouvindo o que é digitado no teclado para chamar a função
-document.addEventListener('keyup', control)
+document.addEventListener('keyup', control);
 
 // Para achar a numeração da tecla
 // keycode.info
