@@ -1,0 +1,94 @@
+/*CSS*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*Retirar border*/
+button{
+	border: unset;
+}
+
+
+/*Alinhar ao centro*/
+.div{
+	display: grid;
+	justify-content: center;
+}
+
+.div{
+	margin: 0 auto;
+}
+
+/*Retirar outline*/
+.entry-textbox:focus {
+     outline: none;
+}
+
+/*O primeiro elemento filho faz o merge com o elemento mãe. 
+Ou seja, caso seja adicionado uma margin-top no filho, este 
+estilização será aplicada para o elemento mãe*/
+
+/*pseudo-class*/
+a:link
+a:visited
+a:focus /*bom colocar para ser utilizado no tab*/
+a:hover
+a:active
+
+
+/*Faz com que o padding não passe por cima do texto e o link fica como parte da página mesmo, ao invés de ficar na frente do texto*/
+a{
+	display: inline-block;
+}
+
+/*botão: usar o padding para fazer o tamanho*/
+
+button{
+	padding: 15px 30px;
+	text-decoration: none; /*remove the underline*/
+}
+
+/*Specificity: priority on css ;*/
+/*- Element selector
+/*- Class Selector*/
+/*- ID selectir*/
+
+/*compound selectors*/
+.main a{
+	background: white;
+}
+
+/*link com classe*/
+a.botao{
+
+ }
+
+
+/*font stacks*/
+/*backup fonts if the first didn't work*/
+.class{
+	font-family: Helvetiva, Arial, sans-serif;
+}
+
+
+/*inheritance*/
+/*we can set a color on the body and it will flow though the entire document*/
+
+	
+/*uppercase*/
+p{
+	text-transform: uppercase;
+} 
+
+/*Modal CSS*/
+	/*Modal*/
+	div{
+		position: relative;
+	}
+
+	/*Fundo*/
+	div{
+		position: absolute;
+	}
