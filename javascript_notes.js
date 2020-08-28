@@ -220,3 +220,6 @@ document.addEventListener('keyup', control);
 
 //Adicionar no array
 currentSnake.push(tail);
+
+// foreach to remove class
+currentSnake.forEach(index => squares[index].classList.remove('snake'))
