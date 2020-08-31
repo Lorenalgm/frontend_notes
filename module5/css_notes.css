@@ -21,8 +21,15 @@ body{
 }
 
 .container{
-    /* The font-size will be 150% bigger than 16px, that is their parent */
+    /* The font-size will be 150% bigger than 16px */
     font-size: 1.5em;
+}
+
+/* Relative to the fontsize of the element */
+h1 {
+    font-size: 24px;
+    margin-bottom: 1em; /* 24 px */
+    margin-bottom: 2em; /* 48px */
 }
 
 /* Rem: short for Root EM. Relative to the root of our document */
