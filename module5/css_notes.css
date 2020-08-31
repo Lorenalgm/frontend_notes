@@ -10,3 +10,17 @@ pt,cm, mm, in (to print exctaly */
 
 /* Percentage */
 /* Relative to their parent, used fot widths */
+
+.container{
+    max-width: 620px;
+} 
+
+/* EM: relative to fontsize */
+body{
+    font-size: 16px;
+}
+
+.container{
+    /* The font-size will be 150% bigger than 16px */
+    font-size: 1.5em;
+}
