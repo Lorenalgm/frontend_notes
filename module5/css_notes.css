@@ -58,3 +58,34 @@ Widths: em or percentage */
      align-items: stretch; /*default. Go back to 'normal' */
      align-items: flex-end; /*align to the bottom */
 }
+
+/* Media queries: add new styles to specific condicions */
+/* @media media-type and (media-features) { (...) } */
+
+/* # Media types #
+screen
+print
+speech */
+
+/* # Media condition #
+widths
+orientation
+specific features */
+
+/* We can use one or both */
+@media screen and (min-width: 720px) { 
+
+}
+
+
+/* Means all and (min-width: 720px) */
+@media (min-width: 720px) { 
+
+}
+
+/* from a minimum width of 400px up to a width of 649px */
+@media (min-width: 400px) and (max-width: 649px) {
+    body {
+        background: purple;
+    }
+}
