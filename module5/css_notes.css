@@ -38,3 +38,15 @@ h1 {
 /* Font-size = rem
 Padding and margin: em
 Widths: em or percentage */
+
+.container{
+    display: flex;
+    /* add espace between the items */
+    justify-content: space-between;
+
+    /* add a space around each element */
+    justify-content: space-around;
+
+    /* add space and balance */
+    justify-content: space-evenly;
+}
