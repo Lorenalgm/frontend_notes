@@ -50,3 +50,11 @@ Widths: em or percentage */
     /* add space and balance */
     justify-content: space-evenly;
 }
+
+.parent{
+    display:flex;
+    align-items: center;
+     align-items: flex-start; /*align to the top */
+     align-items: stretch; /*default. Go back to 'normal' */
+     align-items: flex-end; /*align to the bottom */
+}
