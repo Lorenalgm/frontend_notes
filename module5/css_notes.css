@@ -91,3 +91,20 @@ specific features */
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries */
+
+.parent{
+    display: flex;
+    
+    /* will work horizontally */
+    justify-content: space-between;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    
+    /* will work vertically */
+    justify-content: space-between;
+
+    /* now align-items will work horizontally */
+}
