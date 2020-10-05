@@ -144,3 +144,9 @@ console.log(teste[0])
 //Length
 
 console.log(teste.length)
+
+function showAlert(firstName, lastName){
+    console.log(firstName + ' ' + lastName + ', you have been alerted')
+}
+
+showAlert('Lorena', 'Montes')
