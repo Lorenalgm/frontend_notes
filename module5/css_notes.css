@@ -108,3 +108,17 @@ specific features */
 
     /* now align-items will work horizontally */
 }
+
+/* Centralizar o container */
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* images size */
+
+img{
+    max-width: 100%;
+    display: block;
+}
