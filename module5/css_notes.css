@@ -120,5 +120,19 @@ specific features */
 
 img{
     max-width: 100%;
-    display: block;
+    display: block ;
 }
+
+/* change order */
+.container{
+    display: flex;
+}
+
+.container img{
+    order: 1;
+}
+
+.container h1{
+    order: 2;
+}
+
