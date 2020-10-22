@@ -136,3 +136,12 @@ img{
     order: 2;
 }
 
+/* fit image. It'll crop the image inside the space */
+
+img{
+    width: 100%;
+    min-height: 400px;
+    object-fit: cover;
+    /* keep the left side of the crop image */
+    object-position: left;
+}
