@@ -150,3 +150,20 @@ function showAlert(firstName, lastName){
 }
 
 showAlert('Lorena', 'Montes')
+
+//Slice method
+//produce new arrays
+const films = ['Elf', 'Borat', 'It', 'Split', 'Us']
+const thriller = films.slice(3,5)
+// console.log(thriller) => ['Split', 'Us']
+
+//Push
+// Add new items to the end of an existing Array. It mutates that existing array
+books.push('O Pequeno Príncipe')
+
+
+// Unshift
+//adds new items to the START of an array
+//it will change the length of the array
+let lottery = [5, 7, 8, 10, 12]
+lottery.unshift(2)
