@@ -167,3 +167,14 @@ books.push('O Pequeno Príncipe')
 //it will change the length of the array
 let lottery = [5, 7, 8, 10, 12]
 lottery.unshift(2)
+
+currentSnake.forEach(element => squares[element].classList.add('snake'))
+
+
+pop();
+// remove the last item. Mutante the array
+// returns the removed array
+
+shift()
+// remove the first item. Mutante the array
+// returns the removed array
